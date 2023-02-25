@@ -1,0 +1,77 @@
+.Kiosk_Qpage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.Kioskpage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 65%;
+    padding: 15px;
+    justify-content: center;
+    background-color: #42032C;
+    color: aliceblue; 
+}
+.Kioskpage_row1,.Kioskpage_row3,.Kioskpage_row2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;  
+}
+.Kioskpage_row1{
+    font-size: 3rem;
+}
+.Kioskpage_row1 label{
+    color: goldenrod;
+}
+.Kioskpage_row3{
+   margin-bottom: 20px;
+}
+
+.Kioskpage_row4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-left:500px ;
+    padding-right: 500px;
+}
+.Kioskpage_row4 button{
+    width: 35px;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: none;
+}
+.Kioskpage_row4 button:hover{
+    background-color: gold;
+}
+.Kioskpage_row5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.Kioskpage_row5_box{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Kioskpage_row5_box button{
+    padding: 10px;
+    width: 55px;
+    border-radius: 10px;
+    border-style: none;
+}
+.Kioskpage_row5_box button:hover{
+    background-color: goldenrod;
+}
+textarea{
+    box-sizing: content-box;
+    width:100%;
+    outline: none;
+}
+.a{
+    background-color: #42032C;
+}

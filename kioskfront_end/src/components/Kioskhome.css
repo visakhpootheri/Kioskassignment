@@ -1,0 +1,35 @@
+.Kioskhome{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.Kioskhome_row1{
+    width: 100%;
+    height: 60%;
+    background-color: #42032c;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Kioskhome_row1_label1{
+    font-size: 4rem;
+    color: goldenrod;
+    
+}
+.Kioskhome_row1_label2{
+    font-size: 2.5rem;
+    margin-bottom: 30PX;
+}
+.Kioskhome_row1 button{
+    padding: 10PX;
+    border: none;
+}
+.Kioskhome_row1 button:hover{
+    background-color: goldenrod;
+    font-weight: bold;
+    color: aliceblue;
+    border: none;
+}
